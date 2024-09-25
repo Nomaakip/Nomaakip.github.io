@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>About nomaakip</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +38,7 @@ h1, h2 {
     color: #ddf508;
   }
 
-  button {
+  .button {
     background-color: #fc00a4;
   border: none;
   color: white;
@@ -49,15 +49,14 @@ h1, h2 {
   font-size: 16px;
   margin: 4px 2px;
   border-radius: 8px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
+  transition: 0.5s;
   }
 
-  button:hover {
-           transform: scale(1.03);
+  .button:hover {
+           transform: scale(1.1);
            box-shadow: #fc00a4 0px 0px 10px;
-           transition: 0.5s;
        }
 
     </style>
@@ -67,8 +66,11 @@ h1, h2 {
     <h2>i like to make websites or to make some cool shit with C++!</h2>
     <h3>Squirrel was here :3</h3>
     <img src="https://cdn.discordapp.com/attachments/1192609733371236432/1287118843319287983/2a78eee506a1c88c6af572adb374e303.png?ex=66f3ae15&is=66f25c95&hm=b73eed921c3f2c7cc602b46ae53f59bbda6a58877053530371f035d80966f2a7&" height="200" width="200">
+
     <a href="https://github.com/Nomaakip/starlion-lol/raw/refs/heads/main/Starlion%20Send%20main.zip" >
-    <button>get starlion!</button>
+      <center>
+    <button class="button">get starlion!</button>
+    </center>
   </a>
   <script>
     var colour="random";
