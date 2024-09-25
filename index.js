@@ -1,5 +1,3 @@
-<script type="text/javascript">
-// I'm so gay.. I'm such a homosexual.. I love boys :fire: !!!
 var colour="random";
 var sparkles=50;
 
@@ -195,4 +193,3 @@ function newColour() {
   return ("rgb("+c[0]+", "+c[1]+", "+c[2]+")");
 }
 // ]]>
-</script>
