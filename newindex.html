@@ -4,43 +4,109 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>new index</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,620;1,620&display=swap" rel="stylesheet">
         <style>
-            .balls {
-                text-align: center;
-                font-size: 30px;
+            body {
+                background-image: url(images/1348384.png);
+                background-size: cover;
+                background-repeat: no-repeat;
+                animation: pop-in 1s ease-out forwards;
             }
             
-            .desc {
+            div {
+                background-color: rgb(0 0 0 / .5);
+                color: #fff;
+                width: 700px;
+                border-radius: 8px;
+                margin-left: auto;
+                margin-right: auto;
+                animation: pop-in 1s ease-out forwards;
+            }
+
+            h1 {
+                font-family: "Open Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 620;
+                font-style: normal;
+                font-variation-settings:
+                "wdth" 100;
+                color: #fff;
                 text-align: center;
+                animation: pop-in 1s ease-out forwards;
             }
 
-            .projects {
-                background-color: darkblue;
-                margin: 0px;
+            .p-desc {
+                font-family: "Open Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-variation-settings:
+                "wdth" 100;
+                text-align: center;
+                color: #fff;
+                animation: pop-in 1s ease-out forwards;
             }
 
-            .test {
+            .post1 {
+                font-family: "Open Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                font-variation-settings:
+                "wdth" 100;
                 font-size: 30px;
-                text-align: center;
-                margin: 0px 0px;
-                
+                padding: 10px;
+                margin-right: 10%;
+                animation: pop-in 1s ease-out forwards;
             }
 
-            .hell-yeah {
-                background-color: brown;
-                margin: 0px;
+            .blog-desc  {
+                font-family: "Open Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 200;
+                font-style: normal;
+                font-variation-settings:
+                "wdth" 100;
+                font-size: 20px;
+                text-align: center;
+                animation: pop-in 1s ease-out forwards;
             }
+
+            img {
+                width: 200px;
+                margin-left: 2%;
+                border-radius: 8px;
+                transition-property: box-shadow;
+                transition-duration: 1s;
+                animation: pop-in 1s ease-out forwards;
+            }
+
+            img:hover {
+                box-shadow: red 0px 0px 30px;
+            }
+
+            @keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
         </style>
-    </head>
-    <body>
-<section class="desc">
-        <h1 class="balls">Check out my projects!</h1>
-        </section>
-        <section class="projects">
-            <p class="test">nothing</p>
-    </section>
-    <section class="hell-yeah">
-                <p class="test">penis</p>
-                </section>
-    </body>
-</html>
+        </head>
+        <body>
+            <h1>Hello there, Im nomaakip!</h1>
+            <p class="p-desc">I'm mostly a web developer,i'm also a splatoon modder and software engineer.</p>
+            <div>
+                <h1>Blog!</h1>
+                <p class="blog-desc">Check out my silly posts here!</p>
+                <p class="post1">penis</p>
+                <img src="https://pikidiary.lol/helloschooldistrict?url=https%3A%2F%2Ff.feridinha.com%2F0nebX.png">
+            </div>
+        </body>
