@@ -13,6 +13,7 @@
                 background-size: cover;
                 background-repeat: no-repeat;
                 animation: pop-in 1s ease-out forwards;
+                background-color: #660f3c;
             }
             
             div {
@@ -23,9 +24,23 @@
                 margin-left: auto;
                 margin-right: auto;
                 animation: pop-in 1s ease-out forwards;
+                max-width: fit-content;
+                max-width: 700px;
             }
 
-            h1 {
+            .hello {
+                font-family: "Open Sans", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 620;
+                font-style: normal;
+                font-variation-settings:
+                "wdth" 100;
+                color: #fff;
+                animation: pop-in 1s ease-out forwards;
+                text-align: center;
+            }
+
+            .blog-h1 {
                 font-family: "Open Sans", sans-serif;
                 font-optical-sizing: auto;
                 font-weight: 620;
@@ -34,7 +49,6 @@
                 "wdth" 100;
                 color: #fff;
                 text-align: center;
-                animation: pop-in 1s ease-out forwards;
             }
 
             .p-desc {
@@ -56,10 +70,8 @@
                 font-style: normal;
                 font-variation-settings:
                 "wdth" 100;
-                font-size: 30px;
-                padding: 10px;
-                margin-right: 10%;
-                animation: pop-in 1s ease-out forwards;
+                font-size: 25px;
+                text-align: center;
             }
 
             .blog-desc  {
@@ -71,22 +83,31 @@
                 "wdth" 100;
                 font-size: 20px;
                 text-align: center;
-                animation: pop-in 1s ease-out forwards;
             }
 
             img {
                 width: 200px;
                 margin-left: 2%;
                 border-radius: 8px;
-                transition-property: box-shadow;
-                transition-duration: 1s;
-                animation: pop-in 1s ease-out forwards;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                padding: 10px;
             }
 
-            img:hover {
-                box-shadow: red 0px 0px 30px;
+            .post {
+                border-color: red;
+                border-radius: 8px;
+                border-width: 2px;
+                border-style: solid;
+                width: 650px;
+                transition-property: all;
+                transition-duration: .6s;
             }
 
+            .post:hover {
+                background: rgba(255, 0, 0, 0.3);
+            }
             @keyframes pop-in {
   0% {
     opacity: 0;
@@ -101,12 +122,14 @@
         </style>
         </head>
         <body>
-            <h1>Hello there, Im nomaakip!</h1>
+            <h1 class="hello">Hello there, Im nomaakip!</h1>
             <p class="p-desc">I'm mostly a web developer,i'm also a splatoon modder and software engineer.</p>
             <div>
-                <h1>Blog!</h1>
+                <h1 class="blog-h1">Blog!</h1>
                 <p class="blog-desc">Check out my silly posts here!</p>
-                <p class="post1">penis</p>
+                <div class="post">
+                <p class="post1">Hello!</p>
                 <img src="https://pikidiary.lol/helloschooldistrict?url=https%3A%2F%2Ff.feridinha.com%2F0nebX.png">
+                </div>
             </div>
         </body>
