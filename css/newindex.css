@@ -196,6 +196,21 @@ a {
     text-align: center;
 }
 
+textarea {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 50px;
+}
+
+.button-preview {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 @keyframes pop-in {
 0% {
 opacity: 0;
