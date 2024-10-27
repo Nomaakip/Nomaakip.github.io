@@ -1,0 +1,208 @@
+body {
+    background-image: url('../images/1348384.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: pop-in 1s ease-out forwards;
+    background-color: #660f3c;
+}
+
+.div {
+background: rgba(0, 0, 0, 0.466);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border-radius: 20px;
+border:1px solid rgba(255, 0, 0, 0.233);
+box-shadow: 0 8px 32px 0 rgba(255, 0, 0, 0.10);
+    width: 700px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: pop-in 1s ease-out forwards;
+    max-width: fit-content;
+    max-width: 700px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.hello {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 620;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: #fff;
+    text-align: center;
+}
+
+.blog-h1 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 620;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: #fff;
+    text-align: center;
+}
+
+.p-desc {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    text-align: center;
+    color: #fff;
+}
+
+.post1 {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 25px;
+    text-align: center;
+}
+
+.blog-desc  {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 20px;
+    text-align: center;
+}
+
+.blog1img {
+    width: 200px;
+    margin-left: 2%;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+}
+
+.post {
+    border-color: red;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    width: 650px;
+    transition-property: all;
+    transition-duration: .6s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.post:hover {
+    background: rgba(255, 0, 0, 0.3);
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.warning {
+    margin-top: 20px;
+    background: rgba(240, 156, 0, 0.3);
+    border-color: orange;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    width: 650px;
+    transition-property: all;
+    transition-duration: .6s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+.h1-warning {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 20px;
+    text-align: center;
+}
+
+.issues {
+    color: blue;
+    transition-property: all;
+    transition-duration: .4s;
+    transition-timing-function: ease;
+}
+.issues:hover {
+    color: orange;
+    text-decoration: underline;
+}
+.about {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 25px;
+    display: inline-block;
+    transition-property: all;
+    transition-duration: .4s;
+    transition-timing-function: ease;
+    margin-top: 20px;
+}
+
+.about:hover {
+    color: blue;
+}
+
+.projects {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    transition-property: all;
+    transition-duration: .4s;
+    transition-timing-function: ease;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+@keyframes pop-in {
+0% {
+opacity: 0;
+transform: translateY(-4rem) scale(1);
+}
+100% {
+opacity: 1;
+transform: none;
+}
+}
