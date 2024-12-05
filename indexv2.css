@@ -1,0 +1,163 @@
+* {
+    background: url('images/9szz.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+}
+.card {
+    height:95vh;
+    width: 95vm;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.swag {
+    height:200px;
+    width:600px;
+    background: none;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1)rgba(255,255,255,0)) ;
+    border: 1px solid rgba(255,255,2555,0.18);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,37);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    padding:30px;
+}
+
+.username {
+    background: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 50px;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.pfp {
+    
+    height:140px;
+    width:140px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.usr {
+    display: flex;
+}
+
+.about {
+    background:none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+
+.heart {
+box-shadow: 0px 0px 10px black;
+height: 30px; 
+display:inline-block;
+margin-top: 65px;
+margin-left:20px;
+animation: rainbow 2s infinite;
+aspect-ratio: 1;
+--_m: radial-gradient(#000 69%,#0000 70%) 84.5%/50%;
+-webkit-mask-box-image: var(--_m);
+ mask-border: var(--_m);
+clip-path: polygon(-41% 0,50% 91%, 141% 0);
+background: #cc333f;
+}
+
+@supports not (-webkit-mask-box-image: var(--_m)) { 
+.heart {
+mask:
+radial-gradient(at 70% 31%,#000 29%,#0000 30%),
+radial-gradient(at 30% 31%,#000 29%,#0000 30%),
+conic-gradient(#000 0 0) bottom/100% 50% no-repeat;
+}
+}
+
+.heartsabt {
+background-image: none;
+font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 8px;
+    color:white;
+    margin-top: 20px;
+    margin-left: -50px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.464);
+    display: none;
+    animation: anim .2s ease-in-out;
+}
+
+.heart + .heartsabt {
+animation: anim .2s ease-in-out;
+}
+
+.heart:hover + .heartsabt {
+display: block;
+animation: anim .2s ease-in-out;
+}
+
+@keyframes anim {
+0% {
+opacity: 0%;
+margin-bottom: 0px;
+}
+25% {
+opacity: 25%;
+margin-bottom: 5px;
+}
+
+50% {
+opacity: 50%;
+margin-bottom: 10px;
+}
+
+75% {
+opacity: 75%;
+margin-bottom: 15px;
+}
+
+100% {
+opacity: 100%;
+margin-bottom:20px;
+}
+}
+
+@keyframes rainbow {
+10% {
+background-color: red;
+}
+20% {
+background-color: blue;
+}
+30% {
+background-color: yellow;
+}
+50% {
+background-color: purple;
+}
+
+75% {
+background-color: aqua;
+}
+
+100% {
+background-color: fuchsia;
+}
+}
